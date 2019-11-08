@@ -2733,7 +2733,7 @@ a.faq-black[data-toggle=collapse]{
     font-size: 12px;
 }
 
-.btn-blue { background-color: #6966660ff; color: #ffffff !important; text-transform: uppercase; }
+.btn-blue { background-color: #696666; color: #ffffff !important; text-transform: uppercase; }
 .btn-indigo { background-color: #6610f2; color: #ffffff !important; text-transform: uppercase; }
 .btn-red { background-color: #FF0000; color: #ffffff !important; text-transform: uppercase; }
 .btn-pink { background-color: #e83e8c; color: #ffffff !important; text-transform: uppercase; }
@@ -2746,13 +2746,13 @@ a.faq-black[data-toggle=collapse]{
 .btn-dark { background-color: #343a40; color: #ffffff !important; text-transform: uppercase; }
 .btn-light { background-color: #e5e5e5; color: #696666 !important; text-transform: uppercase; }
 .btn-cyan { background-color: #00FFFF; color: #ffffff !important; text-transform: uppercase; }
-.btn-dark-blue { background-color: #6966660A0; color: #ffffff !important; text-transform: uppercase; }
+.btn-dark-blue { background-color: #696666; color: #ffffff !important; text-transform: uppercase; }
 .btn-orange { background-color: #FFA500; color: #ffffff !important; text-transform: uppercase; }
 .btn-nblue { background-color: #0d0d38; color: #ffffff !important; text-transform: uppercase; }
 
 .btn-outline-red { border-color: #FF0000 !important; color: #FF0000 !important; text-transform: uppercase; background-color: #ffffff; }
-.btn-outline-blue { border-color: #6966660ff !important; color: #6966660ff !important; text-transform: uppercase; background-color: #ffffff; }
-.btn-outline-dark-blue { border-color: #6966660A0 !important; color: #6966660A0 !important; text-transform: uppercase; background-color: #ffffff; }
+.btn-outline-blue { border-color: #696666 !important; color: #696666 !important; text-transform: uppercase; background-color: #ffffff; }
+.btn-outline-dark-blue { border-color: #696666 !important; color: #696666 !important; text-transform: uppercase; background-color: #ffffff; }
 .btn-outline-indigo { border-color: #6610f2 !important; color: #6610f2 !important; text-transform: uppercase; background-color: #ffffff; }
 .btn-outline-pink { border-color: #e83e8c !important; color: #e83e8c !important; text-transform: uppercase; background-color: #ffffff; }
 .btn-outline-green { border-color: #00FF00 !important; color: #00FF00 !important; text-transform: uppercase; background-color: #ffffff; }

@@ -1,24 +1,35 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouteReuseStrategy } from '@angular/router';
+import { NgModule } from '@angular/core';
 
-import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { StatusBar } from '@ionic-native/status-bar/ngx';
-
-import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppComponent } from './app.component';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { HomeComponent } from './home/home.component';
+import { OwlModule } from 'ngx-owl-carousel';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { AngularFontAwesomeModule } from "angular-font-awesome";
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [AppComponent],
-  entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, NgbModule.forRoot()],
-  providers: [
-    StatusBar,
-    SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    NotfoundComponent
   ],
+  imports: [
+    BrowserModule,
+    OwlModule,
+    SlickCarouselModule,
+    AppRoutingModule,
+    AngularFontAwesomeModule,
+    TooltipModule.forRoot()
+  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
